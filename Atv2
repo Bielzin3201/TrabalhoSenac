@@ -1,0 +1,16 @@
+int ferraduras = 4, cavalos, necessario;
+
+Console.WriteLine("Digite a quantidade de Cavalos que foram comprados no Haras: ");
+cavalos = Convert.ToInt32(Console.ReadLine());
+
+necessario = ferraduras * cavalos;
+
+if ( cavalos <= 0 )
+{
+    Console.WriteLine("Não foram comprados nenhum cavalo para o Haras");
+}
+
+else
+{
+    Console.WriteLine($"Foram necessários {necessario} ferraduras para equipar todos os cavalos");
+}
