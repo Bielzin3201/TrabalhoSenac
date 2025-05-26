@@ -1,0 +1,14 @@
+decimal pao, broa, pb = 0, guardar;
+int i;
+
+Console.WriteLine("Quantos pães foram vendidos");
+pao = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Quantas broas foram vendidas");
+broa = Convert.ToInt32(Console.ReadLine());
+
+pao = pao * 0.12M;
+broa = broa * 1.50M;
+pb = broa + pao;
+guardar = pb * 0.1M;
+
+Console.WriteLine($"Foi arrecadado {pb} reais nas vendas de pães e broas, e deve guardar {guardar} na conta poupança ");
