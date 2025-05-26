@@ -1,0 +1,9 @@
+decimal altura, Base, area;
+
+Console.WriteLine("Digite a altura do terreno");
+altura = Convert.ToDecimal(Console.ReadLine());
+Console.WriteLine("Digite a base do terreno");
+Base = Convert.ToDecimal(Console.ReadLine());
+
+area = Base * altura;
+Console.WriteLine($"A área do terreno é {area} m²");
