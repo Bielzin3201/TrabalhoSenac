@@ -1,0 +1,10 @@
+decimal gasolina, pagamento, litros, reais;
+
+Console.WriteLine("Quanto está o litro da gasolina");
+litros = Convert.ToDecimal(Console.ReadLine());
+Console.WriteLine("Digite quantos reais você deseja colocar no tanque");
+reais = Convert.ToDecimal(Console.ReadLine());
+
+pagamento = reais / litros;
+
+Console.WriteLine($"Você conseguiu colocar {pagamento} litros, com {reais} reais");
