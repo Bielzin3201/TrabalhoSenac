@@ -1,0 +1,12 @@
+int dias, meses, anos;
+
+Console.WriteLine("Digite um dia (1 á 30) :");
+dias = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Digite um mês (1 á 12) :");
+meses = Convert.ToInt32(Console.ReadLine());
+
+meses = (meses - 1) * 30;
+anos = meses + dias;
+
+Console.WriteLine($"Se passaram {anos} dias, desde o início do ano");
