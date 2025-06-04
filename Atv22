@@ -1,0 +1,18 @@
+decimal um = 0.01m, cinco = 0.05m, dez = 0.10m, vinte = 0.25m, cinquenta = 0.50m, real = 1.00m;
+
+Console.Write("Digite a quantidades de moedas de 1 centavo que Pedrinho guardou: ");
+um = Convert.ToDecimal(Console.ReadLine());
+Console.Write("Digite a quantidades de moedas de 5 centavo que Pedrinho guardou: ");
+cinco = Convert.ToDecimal(Console.ReadLine());
+Console.Write("Digite a quantidades de moedas de 10 centavo que Pedrinho guardou: ");
+dez = Convert.ToDecimal(Console.ReadLine());
+Console.Write("Digite a quantidades de moedas de 25 centavo que Pedrinho guardou: ");
+vinte = Convert.ToDecimal(Console.ReadLine());
+Console.Write("Digite a quantidades de moedas de 50 centavo que Pedrinho guardou: ");
+cinquenta = Convert.ToDecimal(Console.ReadLine());
+Console.Write("Digite a quantidades de moedas de 1 real que Pedrinho guardou: ");
+real = Convert.ToDecimal(Console.ReadLine());
+
+decimal total = (um * 0.01m) + (cinco * 0.05m) + (dez * 0.10m) + (vinte * 0.25m) + (cinquenta * 0.50m) + (real * 1.00m);
+
+Console.WriteLine($"O total de dinheiro que Pedrinho guardou é: R$ {total:F2}");
