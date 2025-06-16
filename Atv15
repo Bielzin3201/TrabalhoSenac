@@ -10,6 +10,4 @@ resto = total - carlos;
 andre = resto / 2;
 felipe = resto / 2;
 
-Console.WriteLine($"\nCarlos deve pagar: R$ {carlos}.00");
-Console.WriteLine($"André deve pagar: R$ {andre:F2}");
-Console.WriteLine($"Felipe deve pagar: R$ {felipe:F2}");
+Console.WriteLine($"Carlos deve pagar: R$ {carlos}.00 , André deve pagar: R$ {andre:F2} , Felipe deve pagar: R$ {felipe:F2}");
