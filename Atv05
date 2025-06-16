@@ -7,4 +7,4 @@ reais = Convert.ToDecimal(Console.ReadLine());
 
 pagamento = reais / litros;
 
-Console.WriteLine($"Você conseguiu colocar {pagamento} litros, com {reais} reais");
+Console.WriteLine($"Você conseguiu colocar {pagamento:F2} litros, com {reais} reais");
