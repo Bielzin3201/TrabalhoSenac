@@ -1,0 +1,15 @@
+decimal total, andre, felipe, resto;
+
+Console.Write("Digite o valor total da conta: R$ ");
+total = Convert.ToDecimal(Console.ReadLine());
+
+int carlos = (int)(total / 3);
+
+resto = total - carlos;
+
+andre = resto / 2;
+felipe = resto / 2;
+
+Console.WriteLine($"\nCarlos deve pagar: R$ {carlos}.00");
+Console.WriteLine($"André deve pagar: R$ {andre:F2}");
+Console.WriteLine($"Felipe deve pagar: R$ {felipe:F2}");
