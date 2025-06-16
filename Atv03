@@ -11,4 +11,4 @@ broa = broa * 1.50M;
 pb = broa + pao;
 guardar = pb * 0.1M;
 
-Console.WriteLine($"Foi arrecadado {pb} reais nas vendas de pães e broas, e deve guardar {guardar} na conta poupança ");
+Console.WriteLine($"Foi arrecadado {pb} reais nas vendas de pães e broas, e deve guardar {guardar:F2} na conta poupança ");
