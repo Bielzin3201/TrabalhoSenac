@@ -8,4 +8,4 @@ iden = iden * galinhas;
 alimen = alimen * galinhas;
 decimal total = iden + alimen;
 		
-Console.WriteLine($"O gasto total da granja é de {total} reais);
+Console.WriteLine($"O gasto total da granja é de {total} reais");
