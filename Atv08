@@ -13,4 +13,4 @@ n3 = n3 * 3;
 
 media = (n1 + n2 + n3) / 6;
 
-Console.WriteLine($"A média ponderada do aluno é: {media}");
+Console.WriteLine($"A média ponderada do aluno é: {media:F2}");
