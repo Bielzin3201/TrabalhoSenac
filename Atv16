@@ -8,4 +8,4 @@ queijo = sanduiche * queijo;
 presunto = sanduiche * presunto;
 hamburguer = sanduiche * hamburguer;
 
-Console.WriteLine($"A quantidade em quilos de queijo é de {queijo} gramas, de presunto é de {presunto} gramas e a de hamburguer é {hamburguer} gramas");
+Console.WriteLine($"A quantidade em quilos de queijo é de {queijo} kg, de presunto é de {presunto} kg e a de hamburguer é {hamburguer} kg");
