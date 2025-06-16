@@ -1,5 +1,3 @@
-using System.Net.Quic;
-
 int sanduiche;
 
 Console.WriteLine("Digite quantos Sanduiches você deseja");
